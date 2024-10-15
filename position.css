@@ -1,0 +1,64 @@
+/* .box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+
+}
+.one{
+    position: fixed;
+}
+.two{
+    background-color: blue;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+
+}
+.three{
+    background-color: red;
+    position: relative;
+    left: 400px;
+    top: 300px;
+} */
+ 
+    /* background-color: red;
+ }
+ .box{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 400px;
+    top: 200px; 
+    background-color: blue;
+    box-shadow: 10px 10px 10px; color: white;
+
+ } */
+body{
+    background-color: black;
+}
+ .boxs{
+    width: 200px;
+    height: 200px;
+    background-color: var(--kalar);
+    margin-top: 20px;
+
+ }
+ .box :not(.qaas){
+    background-color: white;
+ }
+ :root{
+    --kalar: green;
+    --primarycolor: blue;
+    --font:50px;
+    --cabir:10px;
+
+ }
+ 
+
+ .box{
+    width: 500px;
+    display: flex;
+    gap: 20px;
+    height: 300px;
+    background-color:var(--kalar);
+ }

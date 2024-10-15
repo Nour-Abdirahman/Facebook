@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding: 20px;
+}
+.header ul{
+    display: flex;
+}
+.header ul li{
+    list-style: none;
+}
+.header ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(103, 101, 101);
+    font-size: 30px;
+}
+.header ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+.header h4{
+    font-size: 30px;
+    margin-left: 2%;
+}
+.header .btn{
+    background-color: black;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+.header .btn:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+
+}
+
+.hero{
+    display: flex;
+}
+.hero .left{
+    margin-left: 6%;
+    margin-right: 17%;
+}
+.hero .left h4{
+    font-size: 60px;
+}
+.hero  .left h3{
+    margin-right: 50px;
+
+}
+.hero .right img{
+    width: 500px;
+    height: 500px;
+
+}
+.hero .left i{
+    margin: 10px;
+
+}
+.hero .left p{
+    margin-bottom: 2%;
+
+}
+.Aboutme .left img{
+    width: 300px;
+    height: 300px;
+margin-left: 2%;
+
+}
+.Aboutme {
+    display: flex;
+    margin-top: 3%;
+
+}
+.Aboutme .right{
+    margin-left: 8%;
+
+}
+ .a{
+    margin-left: 40%;
+    text-align: center;
+    background-color: gray;
+    padding: 10px 20px;
+    color: rgb(209, 209, 209);
+    border-radius: 3px;
+    text-decoration: none;
+}
+.ul{
+    display: flex;
+}
+.Aboutme .right ul{
+    margin: 10px;
+}
+.Aboutme .right p{
+    margin: 10px;
+
+}

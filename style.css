@@ -1,0 +1,35 @@
+/* h1{
+    color: blue;
+} */
+/* by color names */
+/* h1{
+   background-color: blue;
+   color: hotpink;
+} */
+
+/* by rgb red, green , blue 0 to 255 rgb(0, 0,0) */
+
+/* h1{
+    color: rgba(150,76,222, 0.1);
+}
+div{
+    background-color: rgba(150,76,222, 0.5);
+    width: 400px;
+    height: 400px;
+} */
+
+/* by hex #000000   000000*/
+ body{
+    background-color: rgba(75, 222, 73, 0.162);
+ }
+/* div{
+    width: 400px;
+    height: 400px;
+    background-color: #fabdef;
+} */
+
+div{
+    width: 400px;
+    height: 400px;
+    color: hsl(240, 30%, 40%);
+}
